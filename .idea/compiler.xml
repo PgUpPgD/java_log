@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="logback" />
+        <module name="slf4j" />
+        <module name="jcl" />
+        <module name="log4j2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jcl" target="1.8" />
+      <module name="log4j2" target="1.8" />
+      <module name="log_use" target="1.8" />
+      <module name="logback" target="1.8" />
+      <module name="slf4j" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jcl" options="-parameters" />
+      <module name="log4j2" options="-parameters" />
+      <module name="log_use" options="-parameters" />
+      <module name="logback" options="-parameters" />
+      <module name="slf4j" options="-parameters" />
+    </option>
+  </component>
+</project>
